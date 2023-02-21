@@ -19,17 +19,24 @@ const readline = require('readline-sync');
 //     z--;
 // }
 
-let w = 0;
-while (w<5){
-    console.log(7);
-    w++
+// let w = 0;
+// while (w<5){
+//     console.log(7);
+//     w++
+// }
+// let start=0;
+// while (start <= 100){
+//     if(start < 10){
+//         console.log(start);
+//     } else if ( start > 35){
+//         console.log(start);
+//     }
+//     start++;
+// }
+
+let answer = readline.question( "Enter y or n: ");
+while (answer != "y" && answer != "n" && a.nswer!="quit"){
+    console.log("Invalid choice.")
+    answer= readline.question( " Try again Enter y or n: ");
 }
-let start=0;
-while (start <= 100){
-    if(start < 10){
-        console.log(start);
-    } else if ( start > 35){
-        console.log(start);
-    }
-    start++;
-}
+console.log("rest of program");
